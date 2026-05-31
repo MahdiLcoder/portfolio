@@ -1,7 +1,6 @@
 <div align="center">
   <br />
     <a href="https://youtu.be/FTH6Dn3AyIQ" target="_blank">
-      <img src="https://github.com/MehdiAbidi/portfolio/assets/151519281/c6ca3c03-6cb7-4f67-a9b9-a73da5bfa0d8" alt="Project Banner">
     </a>
   <br />
 
@@ -85,7 +84,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/MehdiAbidi/portfolio.git
+git clone https://github.com/MahdiLcoder/portfolio.git
 cd portfolio
 ```
 
@@ -189,7 +188,7 @@ export const projects = [
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/MehdiAbidi?tab=repositories",
+    link: "https://github.com/MahdiLcoder?tab=repositories",
   },
   {
     id: 2,
@@ -197,7 +196,7 @@ export const projects = [
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/MehdiAbidi/zoom-clone",
+    link: "https://github.com/MahdiLcoder/zoom-clone",
   },
   {
     id: 3,
@@ -205,7 +204,7 @@ export const projects = [
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/MehdiAbidi/ai_saas_app",
+    link: "https://github.com/MahdiLcoder/ai_saas_app",
   },
   {
     id: 4,
@@ -213,7 +212,7 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/MehdiAbidi/iphone",
+    link: "https://github.com/MahdiLcoder/iphone",
   },
 ];
 
@@ -318,14 +317,12 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/MahdiLcoder",
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/labidi-mahdi-9245ba303/",
   },
 ];
 ```
