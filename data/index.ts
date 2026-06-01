@@ -72,68 +72,73 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "DevFlow Blog",
+    des: "A full-stack blogging platform built in a Turborepo monorepo with NestJS GraphQL API, Next.js 15 App Router frontend, JWT auth, and Supabase image storage.",
+    img: "/blog.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg", "/re.svg"],
+    link: "https://github.com/MahdiLcoder/NestJS-NextJS-blog-turborepo",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "Meet.AI",
+    des: "An AI-powered meeting assistant platform with Next.js 15, TypeScript, Tailwind, tRPC, Drizzle ORM, and real-time Stream Video meetings.",
+    img: "/meet-ai.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://github.com/MahdiLcoder/meet-ai",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Language Learning Platform",
+    des: "A React Native + Expo language-learning app with Stream-powered real-time voice agents, NativeWind styling, Clerk auth, and production-ready analytics.",
+    img: "/language.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/fm.svg"],
+    link: "https://github.com/MahdiLcoder/language-learning-platform",
   },
   {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    id: 5,
+    title: "Spotlight",
+    des: "A full-stack social media mobile app built with Expo, Convex, and Clerk — posts, likes, bookmarks, comments, follow system, and real-time notifications. Dark theme with a green (#4ADE80) accent.",
+    img: "/spotligth.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg", "/c.svg"],
+    link: "https://github.com/MahdiLcoder/spotlight",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Mehdi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mehdi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mehdi is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I hired Mehdi as a freelance junior developer for a website refresh. He delivered clean, responsive frontend work and communicated clearly from start to finish.",
+    name: "Ammar N.",
+    title: "Small Business Owner",
+    avatar: "/avatar1.svg",
   },
   {
     quote:
-      "Collaborating with Mehdi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mehdi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mehdi is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Mehdi joined our project as a mid-level freelance developer and helped us launch a landing page quickly. His attention to detail and willingness to iterate made him easy to work with.",
+    name: "Sara K.",
+    title: "Product Manager",
+    avatar: "/avatar2.svg",
   },
   {
     quote:
-      "Collaborating with Mehdi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mehdi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mehdi is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "This freelance developer showed strong technical focus and delivered functionality exactly as requested. Mehdi's junior/mid-level energy and quick responses helped the project move fast.",
+    name: "Rayan M.",
+    title: "Startup Founder",
+    avatar: "/avatar3.svg",
   },
   {
     quote:
-      "Collaborating with Mehdi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mehdi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mehdi is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Mehdi took our brief and turned it into a polished web experience. His freelance mindset and ability to learn on the job made the collaboration feel professional and efficient.",
+    name: "Leila B.",
+    title: "Marketing Lead",
+    avatar: "/avatar4.svg",
   },
   {
     quote:
-      "Collaborating with Mehdi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mehdi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mehdi is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "As a client, I appreciated Mehdi's practical approach and consistent delivery. He felt like a dependable junior/mid-level freelancer who genuinely cared about the final result.",
+    name: "Omar T.",
+    title: "Ecommerce Client",
+    avatar: "/avatar5.svg",
   },
 ];
 
@@ -152,9 +157,9 @@ export const companies = [
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "Vercel",
+    img: "/vercel.svg",
+    nameImg: "/vercelName.svg",
   },
   {
     id: 4,
@@ -173,31 +178,24 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
+    title: "Fullstack Intern",
     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Mobile App Dev",
+    desc: "Designed and developed mobile apps for iOS and Android using React Native.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance Web Dev Project",
+    desc: "Led the development of a web application for a client, from initial concept to delivery.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
   },
 ];
 
