@@ -187,14 +187,21 @@ export const workExperience = [
     id: 2,
     title: "Mobile App Dev",
     desc: "Designed and developed mobile apps for iOS and Android using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
+    title: "Data Analytic Intern",
+    desc: "Supported data collection, analysis, and reporting to help drive product decisions and uncover user insights.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+  },
+  {
+    id: 4,
     title: "Freelance Web Dev Project",
     desc: "Led the development of a web application for a client, from initial concept to delivery.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
 ];
