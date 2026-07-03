@@ -72,7 +72,7 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Blogyfy",
+    title: "Blogify",
     des: "A full-stack blogging platform built in a Turborepo monorepo with NestJS GraphQL API, Next.js 15 App Router frontend, JWT auth, and Supabase image storage.",
     img: "/blog.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg", "/re.svg"],
